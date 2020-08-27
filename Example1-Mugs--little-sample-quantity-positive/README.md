@@ -20,13 +20,13 @@ exemplo:
 
 
 ********************************************************************
-## Comando para gerando os vetores positivos:
+## Comando para gerar os vetores positivos:
 
 opencv_createsamples -info positivas/positivas.lst -num 1800 -w 18 -h 18 -vec positivas.vec
 
 *******************************************************************
 
-comando cmd para treinar o classificador na pasta das negativas:
+## Comando cmd para treinar o classificador na pasta das negativas:
 
 
 opencv_traincascade -data classificador -vec positivas.vec -bg bg.txt -numPos 1600 -numNeg 800 -numStages 10 -w 18 -h 18 -precalcBufSize 1024 -precalcIdxBufSize 1024
