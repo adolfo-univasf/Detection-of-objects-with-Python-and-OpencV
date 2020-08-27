@@ -2,7 +2,7 @@
 
 ## Criando amostra positiva
 
-no terminal do windows você tem de colocar o seguinte comando para criar imagens positivas juntando a caneca com as imagens negativa em diversos angulos:
+No terminal do windows você tem de colocar o seguinte comando para criar imagens positivas juntando a caneca com as imagens negativa em diversos angulos:
 
 
 opencv_createsamples -img caneca01.jpg -bg negativas/bg.txt -info positivas/positivas.lst -maxxangle 0.5 -maxyangle 0.5 -maxzangle 0.5 -num 1800
