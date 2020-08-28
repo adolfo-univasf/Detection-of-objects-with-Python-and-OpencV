@@ -33,6 +33,7 @@ opencv_traincascade -data classificador -vec positivas.vec -bg bg.txt -numPos 16
 
 # Executando o arquivo deteccao_canecas.py no PyCharm :
 Claramente é possivel ver que o resultado foi ruim devido a quantidade de amostras positivas ser pouca
+
 ![teste_imagem1](https://user-images.githubusercontent.com/9831514/91506510-a47c9800-e8a8-11ea-982d-2fab80938e94.png)
 
 
