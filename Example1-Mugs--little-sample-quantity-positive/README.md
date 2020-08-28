@@ -31,3 +31,8 @@ opencv_createsamples -info positivas/positivas.lst -num 1800 -w 18 -h 18 -vec po
 
 opencv_traincascade -data classificador -vec positivas.vec -bg bg.txt -numPos 1600 -numNeg 800 -numStages 10 -w 18 -h 18 -precalcBufSize 1024 -precalcIdxBufSize 1024
 
+# Executando o arquivo deteccao_canecas.py no PyCharm :
+Claramente é possivel ver que o resultado foi ruim devido a quantidade de amostras positivas ser pouca
+![teste_imagem1](https://user-images.githubusercontent.com/9831514/91506510-a47c9800-e8a8-11ea-982d-2fab80938e94.png)
+
+
